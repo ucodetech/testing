@@ -1,0 +1,13 @@
+RewriteEngine On
+
+
+
+RewriteRule ^member-detail/([0-9a-zA-Z_-]+)$ member-detail.php?detail=$1 [NC,L]
+RewriteRule ^admin-detail/([0-9a-zA-Z_-]+)$ admin-detail.php?detail=$1 [NC,L]
+
+RewriteRule ^request-detail/([0-9a-zA-Z_-]+)$ request-detail.php?requestD=$1 [NC,L]
+RewriteRule ^visitor-detail/([0-9a-zA-Z_-]+)$ visitor-detail.php?detail=$1 [NC,L]
+RewriteRule ^screening-detail/([0-9a-zA-Z_-]+)$ screening-detail.php?detail=$1 [NC,L]
+RewriteRule ^counsel-detail/([0-9a-zA-Z_-]+)$ counsel-detail.php?detail=$1 [NC,L]
+
+
