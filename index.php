@@ -1,1 +1,1 @@
-index.php
+welcome
